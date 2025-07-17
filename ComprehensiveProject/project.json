@@ -1,0 +1,81 @@
+{
+ "projectInfo": {
+  "name": "Comprehensive",
+  "path": "hcl_be5da2956645",
+  "visibility": "2",
+  "introduction": "综合实践",
+  "label": []
+ },
+ "deviceInfoList": [
+  {
+   "resourceName": "PC_1",
+   "resourceCategory": "终端",
+   "resourceModel": "PC",
+   "resourceVersion": "",
+   "configPath": "DeviceConfig\\PC_1.cfg"
+  },
+  {
+   "resourceName": "PC_2",
+   "resourceCategory": "终端",
+   "resourceModel": "PC",
+   "resourceVersion": "",
+   "configPath": "DeviceConfig\\PC_2.cfg"
+  },
+  {
+   "resourceName": "S3",
+   "resourceCategory": "交换机",
+   "resourceModel": "S6850",
+   "resourceVersion": "CMW7.1.070-A7170",
+   "configPath": "DeviceConfig\\S3.cfg"
+  },
+  {
+   "resourceName": "S1",
+   "resourceCategory": "交换机",
+   "resourceModel": "S6850",
+   "resourceVersion": "CMW7.1.070-A7170",
+   "configPath": "DeviceConfig\\S1.cfg"
+  },
+  {
+   "resourceName": "S2",
+   "resourceCategory": "交换机",
+   "resourceModel": "S6850",
+   "resourceVersion": "CMW7.1.070-A7170",
+   "configPath": "DeviceConfig\\S2.cfg"
+  },
+  {
+   "resourceName": "R1",
+   "resourceCategory": "路由器",
+   "resourceModel": "MSR36-20",
+   "resourceVersion": "CMW7.1.064-R0821P11",
+   "configPath": "DeviceConfig\\R1.cfg"
+  },
+  {
+   "resourceName": "R2",
+   "resourceCategory": "路由器",
+   "resourceModel": "MSR36-20",
+   "resourceVersion": "CMW7.1.064-R0821P11",
+   "configPath": "DeviceConfig\\R2.cfg"
+  },
+  {
+   "resourceName": "外网",
+   "resourceCategory": "路由器",
+   "resourceModel": "MSR36-20",
+   "resourceVersion": "CMW7.1.064-R0821P11",
+   "configPath": "DeviceConfig\\外网.cfg"
+  },
+  {
+   "resourceName": "R3",
+   "resourceCategory": "路由器",
+   "resourceModel": "MSR36-20",
+   "resourceVersion": "CMW7.1.064-R0821P11",
+   "configPath": "DeviceConfig\\R3.cfg"
+  },
+  {
+   "resourceName": "PC_3",
+   "resourceCategory": "终端",
+   "resourceModel": "PC",
+   "resourceVersion": "",
+   "configPath": "DeviceConfig\\PC_3.cfg"
+  }
+ ]
+}
