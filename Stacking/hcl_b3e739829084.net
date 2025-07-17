@@ -1,0 +1,25 @@
+version = 5.10.3
+[vbox 127.0.0.1:16600]
+    workingdir = d:\hclprojects\hcl_2f82b5599612\working
+    udp = 10000
+    [[S6850 S6850_1]]
+        device_id = 1
+        bridge_mac = 52-97-78-cc-01-00
+        slot0 = S5800 512
+        FGE_0/53 = S6850_2 FGE_0/53
+        FGE_0/54 = S6850_2 FGE_0/54
+        x = -4405.526509450661
+        y = -3602.96031280393
+        z = 5.0
+    [[S6850 S6850_2]]
+        device_id = 2
+        bridge_mac = 52-97-7c-db-02-00
+        slot0 = S5800 512
+        FGE_0/53 = S6850_1 FGE_0/53
+        FGE_0/54 = S6850_1 FGE_0/54
+        x = -3818.6278810658278
+        y = -3599.4247788979974
+        z = 5.0
+[Non-vBox-DATA]
+    m11 = 1.7
+    m22 = 1.7

@@ -1,0 +1,25 @@
+{
+ "projectInfo": {
+  "name": "Stacking",
+  "path": "hcl_b3e739829084",
+  "visibility": "2",
+  "introduction": "堆叠",
+  "label": []
+ },
+ "deviceInfoList": [
+  {
+   "resourceName": "S6850_1",
+   "resourceCategory": "交换机",
+   "resourceModel": "S6850",
+   "resourceVersion": "CMW7.1.070-A7170",
+   "configPath": "DeviceConfig\\S6850_1.cfg"
+  },
+  {
+   "resourceName": "S6850_2",
+   "resourceCategory": "交换机",
+   "resourceModel": "S6850",
+   "resourceVersion": "CMW7.1.070-A7170",
+   "configPath": "DeviceConfig\\S6850_2.cfg"
+  }
+ ]
+}

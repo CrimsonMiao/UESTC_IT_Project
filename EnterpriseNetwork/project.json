@@ -1,0 +1,158 @@
+{
+ "projectInfo": {
+  "name": "EnterpriseNetwork",
+  "path": "hcl_c368ed404522",
+  "visibility": "2",
+  "introduction": "对企业所用网路架构的模拟，UESTC实习项目",
+  "label": []
+ },
+ "deviceInfoList": [
+  {
+   "resourceName": "Host",
+   "resourceCategory": "终端",
+   "resourceModel": "Host",
+   "resourceVersion": "",
+   "configPath": ""
+  },
+  {
+   "resourceName": "分支接入01",
+   "resourceCategory": "交换机",
+   "resourceModel": "S6850",
+   "resourceVersion": "CMW7.1.070-A7170",
+   "configPath": "DeviceConfig\\分支接入01.cfg"
+  },
+  {
+   "resourceName": "分支边界01",
+   "resourceCategory": "路由器",
+   "resourceModel": "MSR36-20",
+   "resourceVersion": "CMW7.1.064-R0821P11",
+   "configPath": "DeviceConfig\\分支边界01.cfg"
+  },
+  {
+   "resourceName": "ISP-电信",
+   "resourceCategory": "路由器",
+   "resourceModel": "MSR36-20",
+   "resourceVersion": "CMW7.1.064-R0821P11",
+   "configPath": "DeviceConfig\\ISP-电信.cfg"
+  },
+  {
+   "resourceName": "远程接入01",
+   "resourceCategory": "路由器",
+   "resourceModel": "MSR36-20",
+   "resourceVersion": "CMW7.1.064-R0821P11",
+   "configPath": "DeviceConfig\\远程接入01.cfg"
+  },
+  {
+   "resourceName": "核心交换02",
+   "resourceCategory": "交换机",
+   "resourceModel": "S6850",
+   "resourceVersion": "CMW7.1.070-A7170",
+   "configPath": "DeviceConfig\\核心交换02.cfg"
+  },
+  {
+   "resourceName": "总部接入01",
+   "resourceCategory": "交换机",
+   "resourceModel": "S6850",
+   "resourceVersion": "CMW7.1.070-A7170",
+   "configPath": "DeviceConfig\\总部接入01.cfg"
+  },
+  {
+   "resourceName": "总部接入02",
+   "resourceCategory": "交换机",
+   "resourceModel": "S6850",
+   "resourceVersion": "CMW7.1.070-A7170",
+   "configPath": "DeviceConfig\\总部接入02.cfg"
+  },
+  {
+   "resourceName": "管理接入01",
+   "resourceCategory": "交换机",
+   "resourceModel": "S6850",
+   "resourceVersion": "CMW7.1.070-A7170",
+   "configPath": "DeviceConfig\\管理接入01.cfg"
+  },
+  {
+   "resourceName": "分部销售员工",
+   "resourceCategory": "终端",
+   "resourceModel": "PC",
+   "resourceVersion": "",
+   "configPath": "DeviceConfig\\分部销售员工.cfg"
+  },
+  {
+   "resourceName": "总部销售员工",
+   "resourceCategory": "终端",
+   "resourceModel": "PC",
+   "resourceVersion": "",
+   "configPath": "DeviceConfig\\总部销售员工.cfg"
+  },
+  {
+   "resourceName": "总部售前员工",
+   "resourceCategory": "终端",
+   "resourceModel": "PC",
+   "resourceVersion": "",
+   "configPath": "DeviceConfig\\总部售前员工.cfg"
+  },
+  {
+   "resourceName": "iMC平台",
+   "resourceCategory": "终端",
+   "resourceModel": "PC",
+   "resourceVersion": "",
+   "configPath": "DeviceConfig\\iMC平台.cfg"
+  },
+  {
+   "resourceName": "核心交换01",
+   "resourceCategory": "交换机",
+   "resourceModel": "S6850",
+   "resourceVersion": "CMW7.1.070-A7170",
+   "configPath": "DeviceConfig\\核心交换01.cfg"
+  },
+  {
+   "resourceName": "总部边界01",
+   "resourceCategory": "路由器",
+   "resourceModel": "MSR36-20",
+   "resourceVersion": "CMW7.1.064-R0821P11",
+   "configPath": "DeviceConfig\\总部边界01.cfg"
+  },
+  {
+   "resourceName": "业务接入01",
+   "resourceCategory": "交换机",
+   "resourceModel": "S6850",
+   "resourceVersion": "CMW7.1.070-A7170",
+   "configPath": "DeviceConfig\\业务接入01.cfg"
+  },
+  {
+   "resourceName": "业务接入02",
+   "resourceCategory": "交换机",
+   "resourceModel": "S6850",
+   "resourceVersion": "CMW7.1.070-A7170",
+   "configPath": "DeviceConfig\\业务接入02.cfg"
+  },
+  {
+   "resourceName": "Web-Server",
+   "resourceCategory": "交换机",
+   "resourceModel": "S6850",
+   "resourceVersion": "CMW7.1.070-A7170",
+   "configPath": "DeviceConfig\\Web-Server.cfg"
+  },
+  {
+   "resourceName": "分部财务员工",
+   "resourceCategory": "终端",
+   "resourceModel": "PC",
+   "resourceVersion": "",
+   "configPath": "DeviceConfig\\分部财务员工.cfg"
+  },
+  {
+   "resourceName": "管理分支边界01",
+   "resourceCategory": "终端",
+   "resourceModel": "PC",
+   "resourceVersion": "",
+   "configPath": "DeviceConfig\\管理分支边界01.cfg"
+  },
+  {
+   "resourceName": "F1090_20",
+   "resourceCategory": "安全",
+   "resourceModel": "F1090",
+   "resourceVersion": "CMW7.1.064-A7164",
+   "configPath": "DeviceConfig\\F1090_20.cfg"
+  }
+ ]
+}
